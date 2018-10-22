@@ -17,7 +17,7 @@
             "{{#else}}": {
               "type": "$href",
               "options": {
-                "url": "{{$json.url}}",
+                "url": "https://raw.githubusercontent.com/covard/jasonette_testing/master/yc.json",
                 "preload": {
                   "background": "#ffffff"
                 },
