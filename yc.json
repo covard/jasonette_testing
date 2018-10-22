@@ -32,7 +32,10 @@
       "templates": {
         "body": {
           "header": {
-            "title": "CrowdEngine"
+            "title": {
+              "type": "image",
+              "url": "file://icon/fundme_white.png"
+            }
           },
           "background": {
             "type": "html",
