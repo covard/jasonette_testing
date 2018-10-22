@@ -14,10 +14,7 @@
       "templates": {
         "body": {
           "header": {
-            "title": {
-              "type": "image",
-              "url": "https://s3.amazonaws.com/ce-helium-production/uploads/assets/fundmeeq/395/fundme_white.png?1527030328"
-            }
+            "title": "FundMe"
           },
           "background": {
             "type": "html",
