@@ -9,21 +9,14 @@
         },
         "visit": [
           {
-            "{{#if /\\/(newest|newcomments|show|ask|jobs|submit)$/.test($jason.url) }}": {
-              "type": "$default"
-            }
-          },
-          {
-            "{{#else}}": {
-              "type": "$href",
+            "type": "$href",
+            "options": {
+              "url": "{{$jason.url}}",
+              "preload": {
+                "background": "#ffffff"
+              },
               "options": {
-                "url": "https://jasonette.github.io/Jasonpedia/webcontainer/agent/hijack.json",
-                "preload": {
-                  "background": "#ffffff"
-                },
-                "options": {
-                  "url": "{{$jason.url}}"
-                }
+                "url": "{{$jason.url}}"
               }
             }
           }
@@ -34,7 +27,7 @@
           "header": {
             "title": {
               "type": "image",
-              "url": "file://icon/fundme_white.png"
+              "url": "file://fundme_white.png"
             }
           },
           "background": {
