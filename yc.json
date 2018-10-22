@@ -13,6 +13,14 @@
       },
       "templates": {
         "body": {
+          "header": {
+            "type": "image",
+            "style": {
+              "width": "200",
+              "height": "50"
+            },
+            "url": "https://s3.amazonaws.com/ce-helium-production/uploads/assets/fundmeeq/395/fundme_white.png?1527030328"
+          },
           "background": {
             "type": "html",
             "url": "https://www.fundme.com/en",
