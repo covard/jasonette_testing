@@ -1,16 +1,12 @@
 {
   "$jason": {
-    "header": {
-      "title": {
-        "type": "image",
-        "url": "https://news.ycombinator.com/y18.gif"
-      }
+    "head": {
+      ...
     },
-    "background": {
-      "type": "html",
-      "url": "https://news.ycombinator.com",
-      "action": {
-        "trigger": "naviate"
+    "body": {
+      "background": {
+        "type": "html",
+        "url": "https://news.ycombinator.com"
       }
     }
   }
