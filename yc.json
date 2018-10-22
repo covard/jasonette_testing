@@ -14,7 +14,9 @@
       "templates": {
         "body": {
           "header": {
-            "title": ""
+            "styles": {
+              "height": "0"
+            }
           },
           "background": {
             "type": "html",
