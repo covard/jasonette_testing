@@ -8,7 +8,7 @@
     },
     "background": {
       "type": "html",
-      "url": "https://ghost.staging.crowdengine.com",
+      "url": "https://news.ycombinator.com",
       "action": {
         "trigger": "naviate"
       }
