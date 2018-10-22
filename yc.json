@@ -14,12 +14,12 @@
       "templates": {
         "body": {
           "header": {
-            "type": "image",
+            "type": "label",
+            "text": "FundMe",
             "style": {
-              "width": "200",
-              "height": "50"
-            },
-            "url": "https://s3.amazonaws.com/ce-helium-production/uploads/assets/fundmeeq/395/fundme_white.png?1527030328"
+              "background": "#ccc",
+              "color": "#000"
+            }
           },
           "background": {
             "type": "html",
