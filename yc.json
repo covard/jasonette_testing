@@ -9,14 +9,21 @@
         },
         "visit": [
           {
-            "type": "$href",
-            "options": {
-              "url": "{{$jason.url}}",
-              "preload": {
-                "background": "#ffffff"
-              },
+            "{{#if /\\/(newest|newcomments|show|ask|jobs|submit)$/.test($jason.url) }}": {
+              "type": "$default"
+            }
+          },
+          {
+            "{{#else}}": {
+              "type": "$href",
               "options": {
-                "url": "{{$jason.url}}"
+                "url": "{{$json.url}}",
+                "preload": {
+                  "background": "#ffffff"
+                },
+                "options": {
+                  "url": "{{$jason.url}}"
+                }
               }
             }
           }
@@ -27,7 +34,7 @@
           "header": {
             "title": {
               "type": "image",
-              "url": "file://fundme_white.png"
+              "url": "file://icon/fundme_white.png"
             }
           },
           "background": {
