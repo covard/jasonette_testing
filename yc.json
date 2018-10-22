@@ -36,7 +36,7 @@
           },
           "background": {
             "type": "html",
-            "url": "{{'url' in $params ? $params.url : 'https://news.ycombinator.com'}}",
+            "url": "https://ghost.staging.crowdengine.com",
             "action": {
               "trigger": "visit"
             }
