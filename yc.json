@@ -1,15 +1,17 @@
 {
-  "header": {
-    "title": {
-      "type": "image",
-      "url": "https://news.ycombinator.com/y18.gif"
-    }
-  },
-  "background": {
-    "type": "html",
-    "url": "https://ghost.staging.crowdengine.com",
-    "action": {
-      "trigger": "naviate"
+  "$jason": {
+    "header": {
+      "title": {
+        "type": "image",
+        "url": "https://news.ycombinator.com/y18.gif"
+      }
+    },
+    "background": {
+      "type": "html",
+      "url": "https://ghost.staging.crowdengine.com",
+      "action": {
+        "trigger": "naviate"
+      }
     }
   }
 }
