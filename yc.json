@@ -14,7 +14,7 @@
       "templates": {
         "body": {
           "header": {
-            "title": "FundMe"
+            "title": ""
           },
           "background": {
             "type": "html",
