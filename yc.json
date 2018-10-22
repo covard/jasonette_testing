@@ -7,27 +7,9 @@
         "$load": {
           "type": "$render"
         },
-        "visit": [
-          {
-            "{{#if /\\/(newest|newcomments|show|ask|jobs|submit)$/.test($jason.url) }}": {
-              "type": "$default"
-            }
-          },
-          {
-            "{{#else}}": {
-              "type": "$href",
-              "options": {
-                "url": "https://jasonette.github.io/Jasonpedia/webcontainer/agent/hijack.json",
-                "preload": {
-                  "background": "#ffffff"
-                },
-                "options": {
-                  "url": "{{$jason.url}}"
-                }
-              }
-            }
-          }
-        ]
+        "visit": {
+          "type": "$default"
+        }
       },
       "templates": {
         "body": {
