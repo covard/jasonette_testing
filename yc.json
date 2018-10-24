@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "CrowdEngine",
+      "title": "",
       "description": "Handle links and render",
       "actions": {
         "$load": {
@@ -27,6 +27,29 @@
             "action": {
               "trigger": "visit"
             }
+          },
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "rgba(255,255,255,0.8)",
+                "color": "#009efa"
+              },
+              "items": [{
+                "image": "https://raw.githubusercontent.com/CrowdEngine/icons/master/search.png",
+                "text": "Explore",
+                "style": {
+                  "height": "21"
+                },
+                "url": "https://fundme.com/en/explore"
+            },
+            {
+              "image": "https://raw.githubusercontent.com/CrowdEngine/icons/master/dashboard.png",
+              "text": "Dashboard",
+              "style": {
+                "height": "21"
+              },
+              "url": "https://fundme.com/en/users/dashboard"
+            }]
           }
         }
       }
