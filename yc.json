@@ -35,35 +35,19 @@
                 "color": "#000000"
               },
               "items": [{
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/home.png",
+                "image": "https://raw.githubusercontent.com/CrowdEngine/icons/master/search.png",
+                "text": "Explore",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json"
+                "url": "https://fundme.com/en/explore"
               }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
+                "image": "https://raw.githubusercontent.com/CrowdEngine/icons/master/dashboard.png",
+                "text": "Dashboard",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/search.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/camera.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/camera.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/heart.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/heart.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/profile.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/profile.json"
+                "url": "https://fundme.com/en/users/dashboard"
               }]
             }
           }
