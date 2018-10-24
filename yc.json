@@ -36,10 +36,8 @@
               },
               "items": [{
                 "image": "https://raw.githubusercontent.com/CrowdEngine/icons/master/search.png",
+
                 "text": "Explore",
-                "style": {
-                  "height": "21"
-                },
                 "action": {
                   "type": "$network.request",
                   "options": {
@@ -47,8 +45,11 @@
                     "method": "get"
                   },
                   "success": {
-                    "type": "$reload"
+                    "type": "$render"
                   }
+                },
+                "style": {
+                  "height": "21"
                 }
               }, {
                 "image": "https://raw.githubusercontent.com/CrowdEngine/icons/master/dashboard.png",
@@ -56,9 +57,9 @@
                 "style": {
                   "height": "21"
                 },
-                "href": {
+                "action": {
                   "url": "https://www.fundme.com/en/users/dashboard",
-                  "view": "web"
+                  "trigger": "visit"
                 }
               }]
             }
