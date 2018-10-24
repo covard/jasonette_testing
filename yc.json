@@ -57,10 +57,7 @@
                 "style": {
                   "height": "21"
                 },
-                "action": {
-                  "url": "https://www.fundme.com/en/users/dashboard",
-                  "trigger": "visit"
-                }
+                "href": "https://www.fundme.com/en/users/dashboard"
               }]
             }
           }
