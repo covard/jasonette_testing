@@ -45,6 +45,9 @@
                   "options": {
                     "url": "https://www.fundme.com/en/explore",
                     "method": "get"
+                  },
+                  "success": {
+                    "type": "$reload"
                   }
                 }
               }, {
@@ -53,12 +56,9 @@
                 "style": {
                   "height": "21"
                 },
-                "action": {
-                  "type": "$network.request",
-                  "options": {
-                    "url": "https://www.fundme.com/en/users/dashboard",
-                    "method": "get"
-                  }
+                "href": {
+                  "url": "https://www.fundme.com/en/users/dashboard",
+                  "view": "web"
                 }
               }]
             }
