@@ -40,14 +40,26 @@
                 "style": {
                   "height": "21"
                 },
-                "url": "https://fundme.com/en/explore"
+                "action": {
+                  "type": "$network.request",
+                  "options": {
+                    "url": "https://www.fundme.com/en/explore",
+                    "method": "get"
+                  }
+                }
               }, {
                 "image": "https://raw.githubusercontent.com/CrowdEngine/icons/master/dashboard.png",
                 "text": "Dashboard",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://fundme.com/en/users/dashboard"
+                "action": {
+                  "type": "$network.request",
+                  "options": {
+                    "url": "https://www.fundme.com/en/users/dashboard",
+                    "method": "get"
+                  }
+                }
               }]
             }
           }
