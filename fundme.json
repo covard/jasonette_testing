@@ -17,7 +17,7 @@
             "type": "label",
             "text": "FundMe",
             "style": {
-              "background": "#172727",
+              "background": "#CCCCCC",
               "color": "#FFFFFF"
             }
           },
