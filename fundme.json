@@ -28,39 +28,6 @@
               "trigger": "visit"
             }
           },
-          "footer": {
-            "tabs": {
-              "style": {
-                "background": "rgba(255,255,255,0.8)",
-                "color": "#000000"
-              },
-              "items": [{
-                "image": "https://raw.githubusercontent.com/CrowdEngine/icons/master/search.png",
-
-                "text": "Explore",
-                "action": {
-                  "type": "$network.request",
-                  "options": {
-                    "url": "https://www.fundme.com/en/explore",
-                    "method": "get"
-                  },
-                  "success": {
-                    "type": "$render"
-                  }
-                },
-                "style": {
-                  "height": "21"
-                }
-              }, {
-                "image": "https://raw.githubusercontent.com/CrowdEngine/icons/master/dashboard.png",
-                "text": "Dashboard",
-                "style": {
-                  "height": "21"
-                },
-                "href": "https://www.fundme.com/en/users/dashboard"
-              }]
-            }
-          }
         }
       }
     }
